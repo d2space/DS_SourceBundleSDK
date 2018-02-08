@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "DS_SourceBundleSDK"
-  s.version       = "1.0.0.8"
+  s.version       = "1.0.0.9"
   s.license       = "MIT"
   s.summary       = "静态framework测试，storyboard、Xib、image等资源用bundle分离"
   s.homepage      = "https://github.com/d2space/DS_SourceBundleSDK"
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'DS_SourceTestSDK','DS_SourceTestSDK/*.{xib, storyboard, jpg, png}'
   #s.xcconfig = {'VALID_ARCHS' =>  ['armv7', 'armv7s']}
   #s.resources = 'DS_SourceTestSDK.framework/*.{xib, storyboard, jpg, png}'
-  s.resource_bundles = {'DS_SourceBundleSDK' => ['DS_SourceDemoBundle/*.xib','DS_SourceDemoBundle/*.storyboard', ''DS_SourceDemoBundle/*.jpg', 'DS_SourceDemoBundle/*.png'}]}
+  s.resource_bundles = {'DS_SourceBundleSDK' => ['DS_SourceDemoBundle/*.xib','DS_SourceDemoBundle/*.storyboard', 'DS_SourceDemoBundle/*.jpg', 'DS_SourceDemoBundle/*.png'}]}
 
 
 
