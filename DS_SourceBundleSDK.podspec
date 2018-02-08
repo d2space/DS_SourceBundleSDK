@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "DS_SourceBundleSDK"
-  s.version       = "1.0.0.4"
+  s.version       = "1.0.0.5"
   s.license       = "MIT"
   s.summary       = "静态framework测试，storyboard、Xib、image等资源用bundle分离"
   s.homepage      = "https://github.com/d2space/DS_SourceBundleSDK"
