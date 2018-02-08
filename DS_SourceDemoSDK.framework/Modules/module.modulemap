@@ -1,0 +1,11 @@
+framework module DS_SourceDemoSDK {
+  umbrella header "DS_SourceDemoSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DS_SourceDemoSDK.Swift {
+    header "DS_SourceDemoSDK-Swift.h"
+    requires objc
+}
